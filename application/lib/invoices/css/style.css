@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: "Tatwerat_Gess";
+    src: url("fonts/GE_SS_Unique_Bold.otf");
+    src: url("fonts/GE_SS_Unique_Bold.eot?") format("eot"), url("fonts/GE_SS_Unique_Bold.otf") format("opentype"), url("fonts/GE_SS_Unique_Bold.otf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_Gess_light";
+    src: url("fonts/GE_SS_Unique_Light.otf");
+    src: url("fonts/GE_SS_Unique_Light.eot?") format("eot"), url("fonts/GE_SS_Unique_Light.otf") format("opentype"), url("fonts/GE_SS_Unique_Light.otf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_Helv";
+    src: url("fonts/HelveticaNeueW23-Bd.ttf");
+    src: url("fonts/HelveticaNeueW23-Bd.ttf?") format("eot"), url("fonts/HelveticaNeueW23-Bd.ttf") format("opentype"), url("fonts/HelveticaNeueW23-Bd.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Tatwerat_Light';
+    src: url('../fonts/DroidKufi-Regular.eot');
+    src: url('../fonts/DroidKufi-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/DroidKufi-Regular.woff') format('woff'), url('../fonts/DroidKufi-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GESSTOW_Light';
+    src: url('fonts/GE_SS_Two_Light.eot');
+    src: url('fonts/GE_SS_Two_Light.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Light.woff') format('woff'), url('fonts/GE_SS_Two_Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { margin: 0; padding: 0; }
+body {
+font-family: 'Tatwerat_Light';
+    
+    //font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#page-wrap { width: 800px; margin: 0 auto; }
+
+textarea { border: 0; font: 14px Helvetica, Arial, sans-serif; overflow: hidden; resize: none; }
+table { border-collapse: collapse; }
+table td, table th { border: 1px solid black; padding: 5px; }
+
+#header { height: 15px; width: 100%; margin: 20px 0; background: #222; text-align: center; color: white; font: bold 15px Helvetica, Sans-Serif; text-decoration: uppercase; letter-spacing: 20px; padding: 8px 0px; }
+
+#address { width: 250px; height: 150px; float: left; }
+#customer { overflow: hidden; }
+
+#logo { text-align: right; float: right; position: relative; margin-top: 25px; border: 1px solid #fff; max-width: 540px; overflow: hidden; }
+#customer-title { font-size: 20px; font-weight: bold; float: left; }
+
+#meta { margin-top: 1px; width: 100%; float: right; }
+#meta td { text-align: right;  }
+#meta td.meta-head { text-align: left; background: #eee; }
+#meta td textarea { width: 100%; height: 20px; text-align: right; }
+
+#items { clear: both; width: 100%; margin: 30px 0 0 0; border: 1px solid black; }
+#items th { background: #eee; }
+#items textarea { width: 80px; height: 50px; }
+#items tr.item-row td {  vertical-align: top; }
+#items td.description { width: 300px; }
+#items td.item-name { width: 175px; }
+#items td.description textarea, #items td.item-name textarea { width: 100%; }
+#items td.total-line { border-right: 0; text-align: right; }
+#items td.total-value { border-left: 0; padding: 10px; }
+#items td.total-value textarea { height: 20px; background: none; }
+#items td.balance { background: #eee; }
+#items td.blank { border: 0; }
+
+#terms { text-align: center; margin: 20px 0 0 0; }
+#terms h5 { text-transform: uppercase; font: 13px Helvetica, Sans-Serif; letter-spacing: 10px; border-bottom: 1px solid black; padding: 0 0 8px 0; margin: 0 0 8px 0; }
+#terms textarea { width: 100%; text-align: center;}
+
+
+
+.delete-wpr { position: relative; }
+.delete { display: block; color: #000; text-decoration: none; position: absolute; background: #EEEEEE; font-weight: bold; padding: 0px 3px; border: 1px solid; top: -6px; left: -22px; font-family: Verdana; font-size: 12px; }
+
+@font-face {
+    font-family: "Tatwerat_Gess";
+    src: url("fonts/GE_SS_Unique_Bold.otf");
+    src: url("fonts/GE_SS_Unique_Bold.eot?") format("eot"), url("fonts/GE_SS_Unique_Bold.otf") format("opentype"), url("fonts/GE_SS_Unique_Bold.otf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_Gess_light";
+    src: url("../fonts/GE_SS_Unique_Light.otf");
+    src: url("../fonts/GE_SS_Unique_Light.eot?") format("eot"), url("fonts/GE_SS_Unique_Light.otf") format("opentype"), url("fonts/GE_SS_Unique_Light.otf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_Helv";
+    src: url("fonts/HelveticaNeueW23-Bd.ttf");
+    src: url("fonts/HelveticaNeueW23-Bd.ttf?") format("eot"), url("fonts/HelveticaNeueW23-Bd.ttf") format("opentype"), url("fonts/HelveticaNeueW23-Bd.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Tatwerat_Light';
+    src: url('../fonts/DroidKufi-Regular.eot');
+    src: url('../fonts/DroidKufi-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/DroidKufi-Regular.woff') format('woff'), url('fonts/DroidKufi-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GESSTOW_Light';
+    src: url('fonts/GE_SS_Two_Light.eot');
+    src: url('fonts/GE_SS_Two_Light.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Light.woff') format('woff'), url('fonts/GE_SS_Two_Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESSTOW_Medium';
+    src: url('fonts/GE_SS_Two_Medium.eot');
+    src: url('fonts/GE_SS_Two_Medium.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Medium.woff') format('woff'), url('.fonts/GE_SS_Two_Medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESSTOW_Bold';
+    src: url('fonts/GE_SS_Two_Bold.eot');
+    src: url('fonts/GE_SS_Two_Bold.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Bold.woff') format('woff'), url('fonts/GE_SS_Two_Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Tatwerat_H";
+    src: url("fonts/Hacen_Vanilla.ttf");
+    src: url("fonts/Hacen_Vanilla.eot?") format("eot"), url("fonts/Hacen_Vanilla.otf") format("opentype"), url("fonts/Hacen_Vanilla.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_K";
+    src: url("fonts/KHoma.ttf");
+    src: url("fonts/KHoma.eot?") format("eot"), url("fonts/KHoma.otf") format("opentype"), url("fonts/KHoma.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_D";
+    src: url("fonts/SC_DUBAI.ttf");
+    src: url("fonts/SC_DUBAI.eot?") format("eot"), url("fonts/SC_DUBAI.otf") format("opentype"), url("fonts/SC_DUBAI.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_English";
+    src: url("fonts/HoboStd.otf");
+    src: url("fonts/HoboStd.eot?") format("eot"), url("fonts/HoboStd.otf") format("opentype"), url("fonts/HoboStd.ttf") format("truetype");
+}
+
+*{font-family: 'Tatwerat_Light';}
+    

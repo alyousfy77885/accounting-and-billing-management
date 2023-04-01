@@ -1,0 +1,70 @@
+#hiderow,
+.delete {
+  display: none;
+}
+
+@font-face {
+    font-family: "Tatwerat_Gess";
+    src: url("fonts/GE_SS_Unique_Bold.otf");
+    src: url("fonts/GE_SS_Unique_Bold.eot?") format("eot"), url("fonts/GE_SS_Unique_Bold.otf") format("opentype"), url("fonts/GE_SS_Unique_Bold.otf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_Gess_light";
+    src: url("../fonts/GE_SS_Unique_Light.otf");
+    src: url("../fonts/GE_SS_Unique_Light.eot?") format("eot"), url("fonts/GE_SS_Unique_Light.otf") format("opentype"), url("fonts/GE_SS_Unique_Light.otf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_Helv";
+    src: url("fonts/HelveticaNeueW23-Bd.ttf");
+    src: url("fonts/HelveticaNeueW23-Bd.ttf?") format("eot"), url("fonts/HelveticaNeueW23-Bd.ttf") format("opentype"), url("fonts/HelveticaNeueW23-Bd.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Tatwerat_Light';
+    src: url('../fonts/DroidKufi-Regular.eot');
+    src: url('../fonts/DroidKufi-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/DroidKufi-Regular.woff') format('woff'), url('fonts/DroidKufi-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'GESSTOW_Light';
+    src: url('fonts/GE_SS_Two_Light.eot');
+    src: url('fonts/GE_SS_Two_Light.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Light.woff') format('woff'), url('fonts/GE_SS_Two_Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESSTOW_Medium';
+    src: url('fonts/GE_SS_Two_Medium.eot');
+    src: url('fonts/GE_SS_Two_Medium.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Medium.woff') format('woff'), url('.fonts/GE_SS_Two_Medium.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GESSTOW_Bold';
+    src: url('fonts/GE_SS_Two_Bold.eot');
+    src: url('fonts/GE_SS_Two_Bold.eot?#iefix') format('embedded-opentype'), url('fonts/GE_SS_Two_Bold.woff') format('woff'), url('fonts/GE_SS_Two_Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Tatwerat_H";
+    src: url("fonts/Hacen_Vanilla.ttf");
+    src: url("fonts/Hacen_Vanilla.eot?") format("eot"), url("fonts/Hacen_Vanilla.otf") format("opentype"), url("fonts/Hacen_Vanilla.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_K";
+    src: url("fonts/KHoma.ttf");
+    src: url("fonts/KHoma.eot?") format("eot"), url("fonts/KHoma.otf") format("opentype"), url("fonts/KHoma.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_D";
+    src: url("fonts/SC_DUBAI.ttf");
+    src: url("fonts/SC_DUBAI.eot?") format("eot"), url("fonts/SC_DUBAI.otf") format("opentype"), url("fonts/SC_DUBAI.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Tatwerat_English";
+    src: url("fonts/HoboStd.otf");
+    src: url("fonts/HoboStd.eot?") format("eot"), url("fonts/HoboStd.otf") format("opentype"), url("fonts/HoboStd.ttf") format("truetype");
+}
+
+*{ font-family: 'GESSTOW_Bold';}
+   
+    
